@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(217, 217, 217);
+}
+
+.header {
+    text-align: center;
+    background-color: rgb(53, 53, 53);
+    color: rgb(255, 255, 255);
+    padding: 3rem;
+}
+
+.header-text {
+    font-size: 2.5rem;
+}
+
+.content {
+    background-color: rgb(217, 217, 217);
+    padding: 3rem 0;
+    display: flex;
+}
+
+.info {
+    margin: 0 auto;
+    padding: 1rem;
+    width: 60%;
+    background-color: white;
+}
+
+#photo {
+    width: 7rem;
+    height: 7rem;
+    border-radius: 3.5rem;
+    background: url("imgs/profile.jpg");
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.info-header {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.info-content {
+    font-size: 1.25rem;
+    text-align: justify;
+    margin: 1rem 0;
+}
+
+.video {
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+
+.video video {
+    width: 100%;
+}
+
+.nav {
+    width: 10%;
+    height: 29rem;
+    position: absolute;
+    right: 0;
+}
+
+.nav div {
+    background-color: rgb(53, 53, 53);
+    height: 5rem;
+    width: 100%;
+    margin-bottom: 3rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1.75rem;
+}
+
+.nav div a:link,
+.nav div a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.nav div a:hover {
+    text-decoration: none;
+    color: rgb(40, 75, 99);
+}
+
+.nav div a:active {
+    text-decoration: none;
+    color: white;
+}
+
+#description {
+    text-indent: 5rem;
+}
+
+.skill-bar {
+    height: 1rem;
+    background-color: rgb(40, 75, 99);
+    border-radius: 1rem;
+}
+
+.skill {
+    height: 1rem;
+    background-color: rgb(217, 217, 217);
+    border-radius: 1rem;
+}
+
+.skill-text {
+    margin: 0.5rem auto;
+    text-align: center;
+}
+
+#html {
+    width: 95%;
+}
+
+#css {
+    width: 85%;
+}
+
+#js {
+    width: 80%;
+}
+
+#php {
+    width: 75%;
+}
+
+#python {
+    width: 90%;
+}
+
+.contact {
+    font-size: 1.3rem;
+}
