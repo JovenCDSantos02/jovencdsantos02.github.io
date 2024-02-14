@@ -140,3 +140,18 @@ body {
 .contact {
     font-size: 1.3rem;
 }
+
+.project-box {
+    width: 15vw;
+    height: 20vh;
+}
+
+.project-box:hover {
+    width: 18vw;
+    height: 24vh;
+}
+
+#project1 {
+    background-image: url("imgs/portfolio.png");
+    background-size: cover;
+}
